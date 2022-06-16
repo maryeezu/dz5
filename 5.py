@@ -8,7 +8,7 @@ a1 = int(input("Введите цифру от 1 до 10: "))
 b1 = int(input("Введите цифру 1 - для красного, 2 - для черного: "))
 n = 1
 
-while True:
+while n < 5:
     if a == a1 and b == b1:
         print("Вы угадали!")
         break
